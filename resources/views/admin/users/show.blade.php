@@ -33,6 +33,22 @@
                     </tr>
                     <tr>
                         <th>
+                            {{ trans('cruds.user.fields.grade') }}
+                        </th>
+                        <td>
+                            {{ $user->grade }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.user.fields.unite') }}
+                        </th>
+                        <td>
+                            {{ $user->unite }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
                             {{ trans('cruds.user.fields.email') }}
                         </th>
                         <td>

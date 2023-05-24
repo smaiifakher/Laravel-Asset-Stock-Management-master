@@ -47,7 +47,7 @@ return [
             'id_helper'                => '',
             'name'                     => 'Name',
             'name_helper'              => '',
-            'email'                    => 'Email',
+            'email'                    => 'Username',
             'email_helper'             => '',
             'email_verified_at'        => 'Email verified at',
             'email_verified_at_helper' => '',
@@ -65,9 +65,13 @@ return [
             'deleted_at_helper'        => '',
             'team'                     => 'Team',
             'team_helper'              => '',
+            'grade'                    => 'Grade',
+            'unite'                    => 'Unité',
+            'grade_helper'             => '',
+            'unite_helper'             => ''
         ],
     ],
-    'asset'         => [
+    'asset'          => [
         'title'          => 'Assets',
         'title_singular' => 'Asset',
         'fields'         => [
