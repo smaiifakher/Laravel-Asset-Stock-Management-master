@@ -33,6 +33,22 @@
                     </tr>
                     <tr>
                         <th>
+                            Type
+                        </th>
+                        <td>
+                            {{ $asset->type ?? '' }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                           Lot
+                        </th>
+                        <td>
+                            {{ $asset->lot }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
                             {{ trans('cruds.asset.fields.description') }}
                         </th>
                         <td>

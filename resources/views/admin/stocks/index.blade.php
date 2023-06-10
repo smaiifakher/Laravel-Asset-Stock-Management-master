@@ -31,7 +31,7 @@
                         </th>
                         @admin
                             <th>
-                                Hospital
+                                Depots
                             </th>
                         @endadmin
                         <th>
@@ -39,10 +39,10 @@
                         </th>
                         @user
                             <th>
-                                Add Stock
+                                Ajouter des stocks
                             </th>
                             <th>
-                                Remove Stock
+                                Supprimer le stock
                             </th>
                         @enduser
                         <th>
@@ -70,7 +70,7 @@
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <input type="hidden" name="action" value="add">
                                         <input type="number" name="stock" class="form-control form-control-sm col-4" min="1">
-                                        <input type="submit" class="btn btn-xs btn-danger" value="ADD">
+                                        <input type="submit" class="btn btn-xs btn-danger" value="AJOUTER">
                                     </form>
                                 </td>
                                 <td>
@@ -78,7 +78,7 @@
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <input type="hidden" name="action" value="remove">
                                         <input type="number" name="stock" class="form-control form-control-sm col-4" min="1">
-                                        <input type="submit" class="btn btn-xs btn-danger" value="REMOVE">
+                                        <input type="submit" class="btn btn-xs btn-danger" value="RETIRER">
                                     </form>
                                 </td>
                             @enduser

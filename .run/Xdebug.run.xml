@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Xdebug" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" singleton="false" server_name="laravel-asset-stock-management-master.local">
+    <method v="2" />
+  </configuration>
+</component>

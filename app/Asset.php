@@ -21,6 +21,8 @@ class Asset extends Model
 
     protected $fillable = [
         'name',
+        'type',
+        'lot',
         'created_at',
         'updated_at',
         'deleted_at',

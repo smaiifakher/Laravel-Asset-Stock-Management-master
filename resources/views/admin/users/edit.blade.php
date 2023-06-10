@@ -30,7 +30,7 @@
                             {{ $errors->first('grade') }}
                         </div>
                     @endif
-                    <span class="help-block">{{ trans('cruds.user.fields.grade_helper') }}</span>
+                    <span class="help-block"></span>
                 </div>
                 <div class="form-group">
                     <label class="" for="unite">{{ trans('cruds.user.fields.unite') }}</label>
@@ -41,7 +41,7 @@
                             {{ $errors->first('unite') }}
                         </div>
                     @endif
-                    <span class="help-block">{{ trans('cruds.user.fields.unite_helper') }}</span>
+                    <span class="help-block"></span>
                 </div>
                 <div class="form-group">
                     <label class="required" for="email">{{ trans('cruds.user.fields.email') }}</label>
